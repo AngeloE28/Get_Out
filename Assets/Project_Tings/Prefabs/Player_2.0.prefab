@@ -430,7 +430,6 @@ GameObject:
   m_Component:
   - component: {fileID: 9196659566629265911}
   - component: {fileID: 133182652960065914}
-  - component: {fileID: 1732380428828479933}
   - component: {fileID: 7464134433191915957}
   - component: {fileID: 8424767650840902478}
   m_Layer: 8
@@ -487,29 +486,12 @@ MonoBehaviour:
   gravityForce: 10
   GroundLayers:
     serializedVersion: 2
-    m_Bits: 4294967295
-  groundOffset: 0.5
+    m_Bits: 183
+  groundOffset: 1
   collisionRadius: 0.5
   CinemachineCameraTarget: {fileID: 4187453471674794518}
   TopClamp: 90
   BottomClamp: -90
---- !u!114 &1732380428828479933
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8424767650840902477}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 909d917d73a63f940ac158d02e936645, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pushLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  canPush: 0
-  strength: 1.1
 --- !u!136 &7464134433191915957
 CapsuleCollider:
   m_ObjectHideFlags: 0
