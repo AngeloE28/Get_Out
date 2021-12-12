@@ -29,7 +29,10 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float TopClamp = 90.0f;
     [Tooltip("How far in degrees can you move the camera down")]
     [SerializeField] private float BottomClamp = -90.0f;
-        
+
+    [Header("GUI")]
+    [SerializeField] private GameObject showInstructions;        
+
     private PlayerInputActions _playerInputActions;
     private GameObject _mainCamera;
 
@@ -63,7 +66,7 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         Move();
-        GroundCheck();
+        GroundCheck();        
     }
 
 
@@ -173,5 +176,10 @@ public class PlayerMovement : MonoBehaviour
     public PlayerInputActions GetPlayerInputActions()
     {
         return _playerInputActions;
+    }
+
+    public void ShowInstructions(bool active)
+    {
+        showInstructions.SetActive(active);
     }
 }

@@ -21,7 +21,7 @@ public class Button : MonoBehaviour
     private void LateUpdate()
     {
         if (_player != null)
-        {
+        {            
             float interactInput = _player.GetPlayerInputActions().Player.Interact.ReadValue<float>();
             if (interactInput != 0)
                 _isPressed = true;
@@ -40,6 +40,7 @@ public class Button : MonoBehaviour
         if (player != null)
         {
             _player = player;
+            _player.ShowInstructions(true);
         }
     }
 
@@ -48,7 +49,8 @@ public class Button : MonoBehaviour
         other.gameObject.TryGetComponent<PlayerMovement>(out var player);
         if (player != null)
         {
-            _player = null;
+            _player.ShowInstructions(false);
+            _player = null;            
         }
     }
 
