@@ -169,4 +169,9 @@ public class PlayerMovement : MonoBehaviour
         // when selected, draw a gizmo in the position of, and matching radius of, the grounded collider
         Gizmos.DrawSphere(pos, collisionRadius);
     }
+
+    public PlayerInputActions GetPlayerInputActions()
+    {
+        return _playerInputActions;
+    }
 }

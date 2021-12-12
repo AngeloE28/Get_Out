@@ -2645,8 +2645,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   portalParent: {fileID: 753558694}
-  portalExitParent: {fileID: 1928936857}
-  portalExitCollider: {fileID: 1393466431}
+  portalExitParent: {fileID: 1365259556}
+  portalExitCollider: {fileID: 538671464}
   playerGO: {fileID: 957578486}
   turnPlayerAround: 0
 --- !u!54 &893661262
@@ -4014,8 +4014,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   portalParent: {fileID: 1928936857}
-  portalExitParent: {fileID: 753558694}
-  portalExitCollider: {fileID: 893661260}
+  portalExitParent: {fileID: 1365259556}
+  portalExitCollider: {fileID: 538671464}
   playerGO: {fileID: 957578486}
   turnPlayerAround: 0
 --- !u!54 &1393466433

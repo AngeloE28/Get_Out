@@ -1,0 +1,919 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.15f2 (6cf78cb77498) revision 7141260'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 16321 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.15f2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Angelo Estoque/Desktop/Personal Game Projects/Get_Out
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52846
+Successfully changed project path to: C:/Users/Angelo Estoque/Desktop/Personal Game Projects/Get_Out
+C:/Users/Angelo Estoque/Desktop/Personal Game Projects/Get_Out
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 85.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.15f2 (6cf78cb77498)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Angelo Estoque/Desktop/Personal Game Projects/Get_Out/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   
+    VRAM:     8088 MB
+    Driver:   30.0.14.9676
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56012
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003115 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 73.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.436 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1436ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (541ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (195ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (219ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (74ms)
+				BeforeProcessingInitializeOnLoad (17ms)
+				ProcessInitializeOnLoadAttributes (93ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006176 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 85.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.837 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1838ms)
+		BeginReloadAssembly (177ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1579ms)
+			LoadAssemblies (136ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (484ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (732ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (86ms)
+				BeforeProcessingInitializeOnLoad (126ms)
+				ProcessInitializeOnLoadAttributes (498ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3767 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 167.3 MB.
+System memory in use after: 167.5 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 4205.
+Total: 4.795500 ms (FindLiveObjects: 0.819300 ms CreateObjectMapping: 0.333700 ms MarkObjects: 3.540000 ms  DeleteObjects: 0.100400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Project_Tings/Materials/Green.mat
+  artifactKey: Guid(d72f8e9d88d754b449b4d439738743dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Materials/Green.mat using Guid(d72f8e9d88d754b449b4d439738743dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ff2576d9b9eadad03907329ee1d9dc') in 0.376807 seconds 
+  Import took 0.385537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.116305 seconds.
+  path: Assets/Project_Tings/Materials/Normal
+  artifactKey: Guid(87419aad0f28c0d459fa73c4bff8efcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Materials/Normal using Guid(87419aad0f28c0d459fa73c4bff8efcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d049d013e903f61a2527a5cd1c80ac') in 0.007809 seconds 
+  Import took 0.024075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001096 seconds.
+  path: Assets/Project_Tings/Materials/Normal
+  artifactKey: Guid(87419aad0f28c0d459fa73c4bff8efcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Materials/Normal using Guid(87419aad0f28c0d459fa73c4bff8efcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d049d013e903f61a2527a5cd1c80ac') in 0.004832 seconds 
+  Import took 0.041420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.660318 seconds.
+  path: Assets/Project_Tings/Materials/Normal/Red.mat
+  artifactKey: Guid(dd35c91769cb933478e8e6ea23a00a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Materials/Normal/Red.mat using Guid(dd35c91769cb933478e8e6ea23a00a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f0484c6d9e1279cc75c37b0f5e83173') in 0.021636 seconds 
+  Import took 0.028798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.148552 seconds.
+  path: Assets/Project_Tings/Materials/Normal/Blue.mat
+  artifactKey: Guid(2f11171efcbe94f4b806ba30589eff1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Materials/Normal/Blue.mat using Guid(2f11171efcbe94f4b806ba30589eff1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239ed3735d1037889a716757651f6437') in 0.018367 seconds 
+  Import took 0.025852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.315820 seconds.
+  path: Assets/Project_Tings/Materials/Normal/Orange.mat
+  artifactKey: Guid(14da7e53103a7f0499d9fa68e4f98654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Materials/Normal/Orange.mat using Guid(14da7e53103a7f0499d9fa68e4f98654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '672035116ae536fe59e1983cac154fc4') in 0.020283 seconds 
+  Import took 0.032815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.421742 seconds.
+  path: Assets/Project_Tings/Prefabs/RoomSign.prefab
+  artifactKey: Guid(aab1e0c4c65185d409c6c105202bf883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/RoomSign.prefab using Guid(aab1e0c4c65185d409c6c105202bf883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbba368b1a9291008657044f12dffd76') in 0.056690 seconds 
+  Import took 0.064850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001399 seconds.
+  path: Assets/Project_Tings/Prefabs/RoomSign.prefab
+  artifactKey: Guid(aab1e0c4c65185d409c6c105202bf883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/RoomSign.prefab using Guid(aab1e0c4c65185d409c6c105202bf883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbba368b1a9291008657044f12dffd76') in 0.020716 seconds 
+  Import took 0.033257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 156.635556 seconds.
+  path: Assets/Project_Tings/Prefabs/BlueRoomButton.prefab
+  artifactKey: Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/BlueRoomButton.prefab using Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf8c8b074bcdcacae8d2c21edff1820') in 0.032146 seconds 
+  Import took 0.041696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.397471 seconds.
+  path: Assets/Project_Tings/Prefabs/BlueRoomButton.prefab
+  artifactKey: Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/BlueRoomButton.prefab using Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21bd3e12ee7befab02033a4e804207c6') in 0.014892 seconds 
+  Import took 0.023444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.239941 seconds.
+  path: Assets/Project_Tings/Prefabs/BlueRoomButton.prefab
+  artifactKey: Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/BlueRoomButton.prefab using Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ded208015e7a6992398b333679b096') in 0.014674 seconds 
+  Import took 0.023684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.037584 seconds.
+  path: Assets/Project_Tings/Prefabs/BlueRoomButton.prefab
+  artifactKey: Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/BlueRoomButton.prefab using Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f8f91bd00fdbd1702d75ebadc9797ab') in 0.014166 seconds 
+  Import took 0.023731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.511084 seconds.
+  path: Assets/Project_Tings/Prefabs/BlueRoomButton.prefab
+  artifactKey: Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/BlueRoomButton.prefab using Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e0cf8a5647a51bb725e5e1f1bee130') in 0.017104 seconds 
+  Import took 0.026514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.824582 seconds.
+  path: Assets/Project_Tings/Prefabs/BlueRoomButton.prefab
+  artifactKey: Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/BlueRoomButton.prefab using Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c22ecf954613bbab1b26dc1b3f6d26') in 0.012438 seconds 
+  Import took 0.021285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.294427 seconds.
+  path: Assets/Project_Tings/Prefabs/BlueRoomButton.prefab
+  artifactKey: Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/BlueRoomButton.prefab using Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cc7243a00d5e89b25f3cdce605a0ac9') in 0.013819 seconds 
+  Import took 0.021041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.407198 seconds.
+  path: Assets/Project_Tings/Prefabs/BlueRoomButton.prefab
+  artifactKey: Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/BlueRoomButton.prefab using Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153d2d737860a13cf7f20fb0464d4f2e') in 0.014138 seconds 
+  Import took 0.022356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.222447 seconds.
+  path: Assets/Project_Tings/Prefabs/BlueRoomButton.prefab
+  artifactKey: Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/BlueRoomButton.prefab using Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663229b26fbec316ca4aaf70669e8585') in 0.013791 seconds 
+  Import took 0.022700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.901622 seconds.
+  path: Assets/Project_Tings/Prefabs/BlueRoomButton.prefab
+  artifactKey: Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/BlueRoomButton.prefab using Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fdb8c848b16a2921f54016c473568eb') in 0.013177 seconds 
+  Import took 0.022714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.414851 seconds.
+  path: Assets/Project_Tings/Prefabs/BlueRoomButton.prefab
+  artifactKey: Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/BlueRoomButton.prefab using Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94428324d86b5f5b133dcc6c8d4e423') in 0.014313 seconds 
+  Import took 0.022741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.052870 seconds.
+  path: Assets/Project_Tings/Prefabs/BlueRoomButton.prefab
+  artifactKey: Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/BlueRoomButton.prefab using Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0819db70a9d706098aa80ab6bb2204') in 0.013012 seconds 
+  Import took 0.021933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.284047 seconds.
+  path: Assets/Project_Tings/Prefabs/BlueRoomButton.prefab
+  artifactKey: Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/BlueRoomButton.prefab using Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0868ab655881b0e71c2a5fd4002bb80c') in 0.014566 seconds 
+  Import took 0.022009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.883966 seconds.
+  path: Assets/Project_Tings/Prefabs/BlueRoomButton.prefab
+  artifactKey: Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/BlueRoomButton.prefab using Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f3c6199d71ec6fd693709708ea62ff') in 0.015208 seconds 
+  Import took 0.022347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.395702 seconds.
+  path: Assets/Project_Tings/Prefabs/BlueRoomButton.prefab
+  artifactKey: Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/BlueRoomButton.prefab using Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '275f3755bbee1e7fbb5e20fd11309097') in 0.016232 seconds 
+  Import took 0.024926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.766209 seconds.
+  path: Assets/Project_Tings/Prefabs/BlueRoomButton.prefab
+  artifactKey: Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/BlueRoomButton.prefab using Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14294f2a6197b8e3c914e342ddc881fc') in 0.016463 seconds 
+  Import took 0.026242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.507876 seconds.
+  path: Assets/Project_Tings/Prefabs/BlueRoomButton.prefab
+  artifactKey: Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/BlueRoomButton.prefab using Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5644e25c677ef64ad8f765483eef227') in 0.013138 seconds 
+  Import took 0.021768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.828590 seconds.
+  path: Assets/Project_Tings/Prefabs/BlueRoomButton.prefab
+  artifactKey: Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/BlueRoomButton.prefab using Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7aa945e0305e0358ecb3149bd300b5b') in 0.015171 seconds 
+  Import took 0.024869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.103000 seconds.
+  path: Assets/Project_Tings/Prefabs/BlueRoomButton.prefab
+  artifactKey: Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/BlueRoomButton.prefab using Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ced73e1a84835a5ee96044e22b4e9559') in 0.015034 seconds 
+  Import took 0.023113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.583924 seconds.
+  path: Assets/Project_Tings/Prefabs/BlueRoomButton.prefab
+  artifactKey: Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/BlueRoomButton.prefab using Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da9b11938403a513e4ab9b45c188c86a') in 0.013759 seconds 
+  Import took 0.021132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.259209 seconds.
+  path: Assets/Project_Tings/Prefabs/BlueRoomButton.prefab
+  artifactKey: Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/BlueRoomButton.prefab using Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f29d8b37e9da42a55d4757ba12ad7b') in 0.016596 seconds 
+  Import took 0.024846 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008693 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.788 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1789ms)
+		BeginReloadAssembly (196ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1498ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (456ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (672ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (132ms)
+				ProcessInitializeOnLoadAttributes (514ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3627 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.0 MB.
+System memory in use after: 163.2 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 4288.
+Total: 3.650500 ms (FindLiveObjects: 0.379400 ms CreateObjectMapping: 0.221700 ms MarkObjects: 3.023200 ms  DeleteObjects: 0.024700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 53.852985 seconds.
+  path: Assets/Project_Tings/Prefabs/BlueRoomButton.prefab
+  artifactKey: Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/BlueRoomButton.prefab using Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dae77a3efb764f59c254c51edfeec7f') in 0.053681 seconds 
+  Import took 0.060585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022907 seconds.
+  path: Assets/Project_Tings/Prefabs/BlueRoomButton.prefab
+  artifactKey: Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/BlueRoomButton.prefab using Guid(75e1189ebfb702b4da8a0c21709257c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dae77a3efb764f59c254c51edfeec7f') in 0.010386 seconds 
+  Import took 0.017767 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008292 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.767 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1768ms)
+		BeginReloadAssembly (179ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (1509ms)
+			LoadAssemblies (134ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (413ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (683ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (144ms)
+				ProcessInitializeOnLoadAttributes (507ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3627 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.1 MB.
+System memory in use after: 163.3 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 4290.
+Total: 4.261200 ms (FindLiveObjects: 0.468000 ms CreateObjectMapping: 0.247200 ms MarkObjects: 3.521700 ms  DeleteObjects: 0.023000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 60.409532 seconds.
+  path: Assets/Project_Tings/Prefabs/RedRoomButton.prefab
+  artifactKey: Guid(6f455c6c6cdc7704894d234c267a5c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/RedRoomButton.prefab using Guid(6f455c6c6cdc7704894d234c267a5c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a81459a75bc4960a914b946d026433ff') in 0.056295 seconds 
+  Import took 0.062853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.628295 seconds.
+  path: Assets/Project_Tings/Prefabs/RedRoomButton.prefab
+  artifactKey: Guid(6f455c6c6cdc7704894d234c267a5c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/RedRoomButton.prefab using Guid(6f455c6c6cdc7704894d234c267a5c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd9134874d70b3be20153f70b636db6') in 0.015932 seconds 
+  Import took 0.023048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.109942 seconds.
+  path: Assets/Project_Tings/Prefabs/RedRoomButton.prefab
+  artifactKey: Guid(6f455c6c6cdc7704894d234c267a5c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/RedRoomButton.prefab using Guid(6f455c6c6cdc7704894d234c267a5c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9419e24073ce2acbabf86292ccd68a0') in 0.014705 seconds 
+  Import took 0.022335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.435729 seconds.
+  path: Assets/Project_Tings/Prefabs/RedRoomButton.prefab
+  artifactKey: Guid(6f455c6c6cdc7704894d234c267a5c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/RedRoomButton.prefab using Guid(6f455c6c6cdc7704894d234c267a5c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e90a081bc58816e8c3a362a973b52b3') in 0.009849 seconds 
+  Import took 0.016753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.564295 seconds.
+  path: Assets/Project_Tings/Prefabs/RedRoomButton.prefab
+  artifactKey: Guid(6f455c6c6cdc7704894d234c267a5c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/RedRoomButton.prefab using Guid(6f455c6c6cdc7704894d234c267a5c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d302a3f11e13e63ddcd3501bdf46e8b') in 0.014389 seconds 
+  Import took 0.022784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.790155 seconds.
+  path: Assets/Project_Tings/Prefabs/RedRoomButton.prefab
+  artifactKey: Guid(6f455c6c6cdc7704894d234c267a5c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/RedRoomButton.prefab using Guid(6f455c6c6cdc7704894d234c267a5c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb91f864e3bb6369b10bad542fd00617') in 0.012303 seconds 
+  Import took 0.020694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.421655 seconds.
+  path: Assets/Project_Tings/Prefabs/RedRoomButton.prefab
+  artifactKey: Guid(6f455c6c6cdc7704894d234c267a5c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/RedRoomButton.prefab using Guid(6f455c6c6cdc7704894d234c267a5c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7167115f18e714d565dd33d19a8c7dee') in 0.024422 seconds 
+  Import took 0.045623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.808900 seconds.
+  path: Assets/Project_Tings/Prefabs/RedRoomButton.prefab
+  artifactKey: Guid(6f455c6c6cdc7704894d234c267a5c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/RedRoomButton.prefab using Guid(6f455c6c6cdc7704894d234c267a5c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbac6221a7309db2f54dbb3268e5dbda') in 0.013782 seconds 
+  Import took 0.021148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.997554 seconds.
+  path: Assets/Project_Tings/Prefabs/RedRoomButton.prefab
+  artifactKey: Guid(6f455c6c6cdc7704894d234c267a5c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/RedRoomButton.prefab using Guid(6f455c6c6cdc7704894d234c267a5c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f7809b3fa8a8cc093caff942f4f8d87') in 0.015703 seconds 
+  Import took 0.025424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.795699 seconds.
+  path: Assets/Project_Tings/Prefabs/RedRoomButton.prefab
+  artifactKey: Guid(6f455c6c6cdc7704894d234c267a5c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/RedRoomButton.prefab using Guid(6f455c6c6cdc7704894d234c267a5c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff69f3a10ae725b5cb3069e058e1ab8') in 0.011146 seconds 
+  Import took 0.020975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.276753 seconds.
+  path: Assets/Project_Tings/Prefabs/RedRoomButton.prefab
+  artifactKey: Guid(6f455c6c6cdc7704894d234c267a5c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/RedRoomButton.prefab using Guid(6f455c6c6cdc7704894d234c267a5c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea7cbb611b6f348e2c001d029503d04') in 0.012864 seconds 
+  Import took 0.020481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.573818 seconds.
+  path: Assets/Project_Tings/Prefabs/RedRoomButton.prefab
+  artifactKey: Guid(6f455c6c6cdc7704894d234c267a5c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/RedRoomButton.prefab using Guid(6f455c6c6cdc7704894d234c267a5c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81667e86d4ac39a3e608f8dc67d4ed0c') in 0.015694 seconds 
+  Import took 0.026299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.460282 seconds.
+  path: Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab
+  artifactKey: Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab using Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '709d65e7748279951b84dbfdb5a1aae3') in 0.202007 seconds 
+  Import took 0.210572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.575557 seconds.
+  path: Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab
+  artifactKey: Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab using Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1633e985299c1518ea5ccc1cad12af8') in 0.024633 seconds 
+  Import took 0.032133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.022837 seconds.
+  path: Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab
+  artifactKey: Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab using Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b28caf42df16b2d818087623c3d4f6') in 0.635259 seconds 
+  Import took 0.964513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.290463 seconds.
+  path: Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab
+  artifactKey: Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab using Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d393bb53a00d42bf5a7f1141459c37') in 0.025924 seconds 
+  Import took 0.035204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.051335 seconds.
+  path: Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab
+  artifactKey: Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab using Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d61307f8bba5e73c88033812c516c1a') in 0.023998 seconds 
+  Import took 0.031881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.177459 seconds.
+  path: Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab
+  artifactKey: Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab using Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '649326708740401bcf5dbac4824bf97b') in 0.021048 seconds 
+  Import took 0.029081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.245067 seconds.
+  path: Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab
+  artifactKey: Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab using Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5584a3e3987fcd80d2984a7afe67b22a') in 0.033449 seconds 
+  Import took 0.040777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.650585 seconds.
+  path: Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab
+  artifactKey: Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab using Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c79d0a879ea85d16cf57a9175354ad77') in 0.033440 seconds 
+  Import took 0.041864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.784043 seconds.
+  path: Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab
+  artifactKey: Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab using Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec90a0ed9730a639450e0ba75d1b9a90') in 0.022661 seconds 
+  Import took 0.031262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.660683 seconds.
+  path: Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab
+  artifactKey: Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab using Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee6a044fb17006f48238cd3ec839b492') in 0.027297 seconds 
+  Import took 0.035595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.219343 seconds.
+  path: Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab
+  artifactKey: Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab using Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd491dbc4f8bb7b7e38f68e550a1df5') in 0.113790 seconds 
+  Import took 0.152561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.209152 seconds.
+  path: Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab
+  artifactKey: Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab using Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cffe868517a85182a5694b95b7015cbf') in 0.023534 seconds 
+  Import took 0.032132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.392230 seconds.
+  path: Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab
+  artifactKey: Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab using Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad02bbbc34f7442216737f8bb36f4d8') in 0.024653 seconds 
+  Import took 0.032672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.222440 seconds.
+  path: Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab
+  artifactKey: Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab using Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e8bd5c60879ddf8608d500c2f65d8c6') in 0.024693 seconds 
+  Import took 0.037862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.362338 seconds.
+  path: Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab
+  artifactKey: Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab using Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e6292baca1990afde0ebd764125897') in 0.022262 seconds 
+  Import took 0.030785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.819958 seconds.
+  path: Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab
+  artifactKey: Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab using Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84c8e24c5af746d2c7f8ac6dca78d469') in 0.026323 seconds 
+  Import took 0.034498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.178136 seconds.
+  path: Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab
+  artifactKey: Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab using Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6776eb99cf4910ee66421650dc1b6c28') in 0.023977 seconds 
+  Import took 0.033931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.417365 seconds.
+  path: Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab
+  artifactKey: Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab using Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86f539f640c2c2db5d25a28d34f4e3d') in 0.028706 seconds 
+  Import took 0.037289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.238411 seconds.
+  path: Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab
+  artifactKey: Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab using Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10df90919b0cf6f061068c891aca12a4') in 0.026824 seconds 
+  Import took 0.035874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.353298 seconds.
+  path: Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab
+  artifactKey: Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab using Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '009bb506ea565b7b71e2b6aea1e83ae4') in 0.027090 seconds 
+  Import took 0.036556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.474047 seconds.
+  path: Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab
+  artifactKey: Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab using Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c12972b2341ee79b71dae4a6f711d3') in 0.024997 seconds 
+  Import took 0.034532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.689276 seconds.
+  path: Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab
+  artifactKey: Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab using Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3224554b4cd9be7a6d63b9ddbb8f858e') in 0.026875 seconds 
+  Import took 0.036146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.700288 seconds.
+  path: Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab
+  artifactKey: Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab using Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd17203c5eda856afa599e7837e89f19') in 0.022564 seconds 
+  Import took 0.032505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.659913 seconds.
+  path: Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab
+  artifactKey: Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab using Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b2292b06aa79e04ff2a32afd86452b') in 0.022194 seconds 
+  Import took 0.030736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.681383 seconds.
+  path: Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab
+  artifactKey: Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/OrangeRoomPad.prefab using Guid(9cc5cbd9fd2b05a4e82d44b4d32de2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553b827fba0767622425947220a1ff78') in 0.017852 seconds 
+  Import took 0.024819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.464913 seconds.
+  path: Assets/Project_Tings/Prefabs/GreenRoomPad.prefab
+  artifactKey: Guid(dc403ffa8083c544c989188d7990d819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/GreenRoomPad.prefab using Guid(dc403ffa8083c544c989188d7990d819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d6442566e3a4b0f6ef2ce651dae18f') in 0.030109 seconds 
+  Import took 0.038605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.608677 seconds.
+  path: Assets/Project_Tings/Prefabs/GreenRoomPad.prefab
+  artifactKey: Guid(dc403ffa8083c544c989188d7990d819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/GreenRoomPad.prefab using Guid(dc403ffa8083c544c989188d7990d819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0658b2c4df4085189cdbfb1dd8674726') in 0.020236 seconds 
+  Import took 0.027788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.008627 seconds.
+  path: Assets/Project_Tings/Prefabs/GreenRoomPad.prefab
+  artifactKey: Guid(dc403ffa8083c544c989188d7990d819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/GreenRoomPad.prefab using Guid(dc403ffa8083c544c989188d7990d819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24c368ed7e8a65d5d2bed8eca41e6ed5') in 0.032126 seconds 
+  Import took 0.041335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.785047 seconds.
+  path: Assets/Project_Tings/Prefabs/GreenRoomPad.prefab
+  artifactKey: Guid(dc403ffa8083c544c989188d7990d819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/GreenRoomPad.prefab using Guid(dc403ffa8083c544c989188d7990d819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0b2f3c25321a2ab375d134e58319329') in 0.024702 seconds 
+  Import took 0.034252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.815525 seconds.
+  path: Assets/Project_Tings/Prefabs/GreenRoomPad.prefab
+  artifactKey: Guid(dc403ffa8083c544c989188d7990d819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/GreenRoomPad.prefab using Guid(dc403ffa8083c544c989188d7990d819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cd3b62d343d5bda8688d7f79ba1281e') in 0.028536 seconds 
+  Import took 0.037434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.605693 seconds.
+  path: Assets/Project_Tings/Prefabs/GreenRoomPad.prefab
+  artifactKey: Guid(dc403ffa8083c544c989188d7990d819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/GreenRoomPad.prefab using Guid(dc403ffa8083c544c989188d7990d819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8897cbb82f5d18e429ed8c4c8ade433') in 0.025333 seconds 
+  Import took 0.033889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.429238 seconds.
+  path: Assets/Project_Tings/Prefabs/GreenRoomPad.prefab
+  artifactKey: Guid(dc403ffa8083c544c989188d7990d819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/GreenRoomPad.prefab using Guid(dc403ffa8083c544c989188d7990d819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d4b653a881574f3c6660367729c4df') in 0.211969 seconds 
+  Import took 0.266048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.134240 seconds.
+  path: Assets/Project_Tings/Prefabs/GreenRoomPad.prefab
+  artifactKey: Guid(dc403ffa8083c544c989188d7990d819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/GreenRoomPad.prefab using Guid(dc403ffa8083c544c989188d7990d819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74024ea3e8a594b3fb60951735751fc8') in 0.026147 seconds 
+  Import took 0.034970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.382685 seconds.
+  path: Assets/Project_Tings/Prefabs/GreenRoomPad.prefab
+  artifactKey: Guid(dc403ffa8083c544c989188d7990d819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/GreenRoomPad.prefab using Guid(dc403ffa8083c544c989188d7990d819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e89c8227686e60ded5bd8d7c729b8c0d') in 0.027793 seconds 
+  Import took 0.036501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.622878 seconds.
+  path: Assets/Project_Tings/Prefabs/GreenRoomPad.prefab
+  artifactKey: Guid(dc403ffa8083c544c989188d7990d819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/GreenRoomPad.prefab using Guid(dc403ffa8083c544c989188d7990d819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af7ac5e5955366d9c40a357f1a5341f6') in 0.025717 seconds 
+  Import took 0.035840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.913166 seconds.
+  path: Assets/Project_Tings/Prefabs/GreenRoomPad.prefab
+  artifactKey: Guid(dc403ffa8083c544c989188d7990d819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/GreenRoomPad.prefab using Guid(dc403ffa8083c544c989188d7990d819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8440fd461ac0ea1c5bb469d37ca5cca7') in 0.027430 seconds 
+  Import took 0.035655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.608420 seconds.
+  path: Assets/Project_Tings/Prefabs/GreenRoomPad.prefab
+  artifactKey: Guid(dc403ffa8083c544c989188d7990d819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/GreenRoomPad.prefab using Guid(dc403ffa8083c544c989188d7990d819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828df45e928827b41064b82562bacbd2') in 0.054231 seconds 
+  Import took 0.065484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.391035 seconds.
+  path: Assets/Project_Tings/Prefabs/GreenRoomPad.prefab
+  artifactKey: Guid(dc403ffa8083c544c989188d7990d819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/GreenRoomPad.prefab using Guid(dc403ffa8083c544c989188d7990d819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486dd6e26f54fd9cb1040571a8483bd2') in 0.027421 seconds 
+  Import took 0.039840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.726930 seconds.
+  path: Assets/Project_Tings/Prefabs/GreenRoomPad.prefab
+  artifactKey: Guid(dc403ffa8083c544c989188d7990d819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/GreenRoomPad.prefab using Guid(dc403ffa8083c544c989188d7990d819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1963bd02c6365e1eebc5a7c73f3dfb97') in 0.024303 seconds 
+  Import took 0.033479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.952965 seconds.
+  path: Assets/Project_Tings/Prefabs/GreenRoomPad.prefab
+  artifactKey: Guid(dc403ffa8083c544c989188d7990d819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/GreenRoomPad.prefab using Guid(dc403ffa8083c544c989188d7990d819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae34d06142e0af40fe2895815160d29') in 0.029423 seconds 
+  Import took 0.039407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.079524 seconds.
+  path: Assets/Project_Tings/Prefabs/GreenRoomPad.prefab
+  artifactKey: Guid(dc403ffa8083c544c989188d7990d819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Tings/Prefabs/GreenRoomPad.prefab using Guid(dc403ffa8083c544c989188d7990d819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1512fc031965feda73ea99e8eecdd7') in 0.019131 seconds 
+  Import took 0.026759 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
